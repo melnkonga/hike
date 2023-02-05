@@ -1,0 +1,94 @@
+.authentication_view_component__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45vw;
+  height: 100vh;
+  background-color: #f4f5f8;
+  color: #193036;
+}
+
+.authentication_view_component__form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30vw;
+  height: 70vh;
+}
+
+.authentication_view_component__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  height: 40%;
+  width: 100%;
+}
+
+.authentication_view_component__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 60%;
+  width: 100%;
+}
+
+.authentication_view_component__form__input__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 1rem;
+  width: 60%;
+  padding: 1rem 0;
+}
+
+.authentication_view_component__form__input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.authentication_view_component__form__input label {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.authentication_view_component__form__input input {
+  width: 18vw;
+  height: 3vh;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid #d8e39a;
+}
+
+.authentication_view_component__container__button__login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.authentication_view_component__container__button__login button {
+  color: #f4f5f8;
+  border: none;
+  width: 8vw;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: #1d9000;
+}
+
+/* Path: src\components\WelcomeAuthentication\AuthenticationViewComponent.js */

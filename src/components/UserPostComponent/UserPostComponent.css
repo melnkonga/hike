@@ -1,0 +1,32 @@
+.user_post__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 0.4rem;
+  width: 112px;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  background: rgba(0, 0, 0, 0.1);
+  color: black;
+  font-weight: normal;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.user_post__header__avatar__image {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user_post__body__image {
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
+  border-top-right-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}

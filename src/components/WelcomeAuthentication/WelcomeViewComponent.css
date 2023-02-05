@@ -1,0 +1,28 @@
+.welcome_view_component__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 55vw;
+  height: 100vh;
+  background-color: #193036;
+  color: #f4f5f8;
+}
+
+.welcome_view_component__title {
+  width: 100vw;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.welcome_view_component__bg__decoration {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 55vw;
+  height: auto;
+  z-index: -1;
+}
+
+/* Path: src\components\WelcomeAuthentication\WelcomeViewComponent.js */

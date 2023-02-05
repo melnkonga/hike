@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #38598b;
+}
+.navbar a {
+    color: #e7eaf6;
+}
+.navbar a:hover {
+    color: #a2a8d3;
+}
+.card {
+    background-color: #e7eaf6;
+}
+.card-title {
+    color: #113f67;
+}
+.card-text {
+    color: #113f67;
+}
+.text-muted {
+    color: #a2a8d3;
+}
